@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09D5050B264114610016050A /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5050A264114610016050A /* BookwormApp.swift */; };
+		09D5050B264114610016050A /* BookwormOverviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5050A264114610016050A /* BookwormOverviewApp.swift */; };
 		09D5050D264114610016050A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5050C264114610016050A /* ContentView.swift */; };
 		09D5050F264114650016050A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D5050E264114650016050A /* Assets.xcassets */; };
 		09D50512264114650016050A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D50511264114650016050A /* Preview Assets.xcassets */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09D50507264114610016050A /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		09D5050A264114610016050A /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		09D50507264114610016050A /* BookwormOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookwormOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D5050A264114610016050A /* BookwormOverviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormOverviewApp.swift; sourceTree = "<group>"; };
 		09D5050C264114610016050A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09D5050E264114650016050A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D50511264114650016050A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		09D504FE264114610016050A = {
 			isa = PBXGroup;
 			children = (
-				09D50509264114610016050A /* Bookworm */,
+				09D50509264114610016050A /* BookwormOverview */,
 				09D50508264114610016050A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,15 +58,15 @@
 		09D50508264114610016050A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09D50507264114610016050A /* Bookworm.app */,
+				09D50507264114610016050A /* BookwormOverview.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09D50509264114610016050A /* Bookworm */ = {
+		09D50509264114610016050A /* BookwormOverview */ = {
 			isa = PBXGroup;
 			children = (
-				09D5050A264114610016050A /* BookwormApp.swift */,
+				09D5050A264114610016050A /* BookwormOverviewApp.swift */,
 				09D5051F2641177C0016050A /* Day53 */,
 				09D5050C264114610016050A /* ContentView.swift */,
 				09D5050E264114650016050A /* Assets.xcassets */,
@@ -75,7 +75,7 @@
 				09D50515264114650016050A /* Bookworm.xcdatamodeld */,
 				09D50510264114650016050A /* Preview Content */,
 			);
-			path = Bookworm;
+			path = BookwormOverview;
 			sourceTree = "<group>";
 		};
 		09D50510264114650016050A /* Preview Content */ = {
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09D50506264114610016050A /* Bookworm */ = {
+		09D50506264114610016050A /* BookwormOverview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09D5051B264114650016050A /* Build configuration list for PBXNativeTarget "Bookworm" */;
+			buildConfigurationList = 09D5051B264114650016050A /* Build configuration list for PBXNativeTarget "BookwormOverview" */;
 			buildPhases = (
 				09D50503264114610016050A /* Sources */,
 				09D50504264114610016050A /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = Bookworm;
+			name = BookwormOverview;
 			productName = Bookworm;
-			productReference = 09D50507264114610016050A /* Bookworm.app */;
+			productReference = 09D50507264114610016050A /* BookwormOverview.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09D50502264114610016050A /* Build configuration list for PBXProject "Bookworm" */;
+			buildConfigurationList = 09D50502264114610016050A /* Build configuration list for PBXProject "BookwormOverview" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09D50506264114610016050A /* Bookworm */,
+				09D50506264114610016050A /* BookwormOverview */,
 			);
 		};
 /* End PBXProject section */
@@ -175,7 +175,7 @@
 				09D5050D264114610016050A /* ContentView.swift in Sources */,
 				09D50521264117D50016050A /* CustomComponentWIthBinding_Part1.swift in Sources */,
 				09D5053226413A640016050A /* UsingSizeClassses_Part3.swift in Sources */,
-				09D5050B264114610016050A /* BookwormApp.swift in Sources */,
+				09D5050B264114610016050A /* BookwormOverviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,16 +304,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookwormOverview/Preview Content\"";
 				DEVELOPMENT_TEAM = PKTBX2CYQK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Bookworm/Info.plist;
+				INFOPLIST_FILE = BookwormOverview/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicefiction.Bookworm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicefiction.BookwormOverview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,16 +326,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookwormOverview/Preview Content\"";
 				DEVELOPMENT_TEAM = PKTBX2CYQK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Bookworm/Info.plist;
+				INFOPLIST_FILE = BookwormOverview/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicefiction.Bookworm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicefiction.BookwormOverview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09D50502264114610016050A /* Build configuration list for PBXProject "Bookworm" */ = {
+		09D50502264114610016050A /* Build configuration list for PBXProject "BookwormOverview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09D50519264114650016050A /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09D5051B264114650016050A /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
+		09D5051B264114650016050A /* Build configuration list for PBXNativeTarget "BookwormOverview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09D5051C264114650016050A /* Debug */,
