@@ -88,6 +88,12 @@ struct CustomComponentWIthBinding_Part2: View {
                 .padding()
                 .font(.title)
         }
+        /**
+         This is the power of `@Binding` :
+         as far as the button is concerned
+         it is just toggling a Boolean
+         — it has no idea that something else is monitoring that Boolean and acting upon changes .
+         */
     }
 }
 

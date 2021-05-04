@@ -15,9 +15,12 @@ struct ContentView: View {
 //        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
 //        animation: .default)
 //    private var items: FetchedResults<Item>
+    
+    
 
     var body: some View {
         Text("Hello World")
+       
 //        List {
 //            ForEach(items) { item in
 //                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
